@@ -26,14 +26,20 @@ def edit():
     print('2. Module')
     edit_options = input('Choose which data you want to add or press 0 to quit:')
     if edit_options == '1':
+        app.student_data()
         app.edit_student()
+        navigation()
     elif edit_options == '2':
+        app.module_data()
         app.edit_module()
+        navigation()
     elif edit_options == '0':
         navigation()
     else:
         print('Invalid input. Please try again.')
         edit()
+def result():
+    app.check_result()
 
 def get_report():
     app.generate_report()
@@ -51,9 +57,9 @@ def navigation():
     elif navigation_options == '2':
         edit()
     elif navigation_options == '3':
-        app.check_result()
+        result()
     elif navigation_options == '4':
-        app.generate_report()
+        get_report()
     elif navigation_options == '0':
         print('Goodbye')
         exit()

@@ -1,5 +1,0 @@
-========= Certification Report =========
-Module: Python| Grade: Distinction
-Module: C#| Grade: Distinction
-Module: Cybersecurity| Grade: Pass
-Module: SQL| Grade: Merit
