@@ -36,7 +36,6 @@ A command-line application for managing student certifications, module data, and
 - Required Python packages:
 - rich
 - sqlite3
-- pandas
 
 ## Installation
 
@@ -69,27 +68,21 @@ python main.py
 - View all students
 - Add new student
 - Edit student details
-- Delete student record
-
+  
 2. **Modules**
 - View all modules
 - Add new module
 - Edit module details
-- Delete module
 
 3. **Results**
 - View student results
 - Record new result
-- Update existing result
-- Delete result
 
 4. **Reports**
 - Generate student progress report
 - View certification statistics
-- Export results to CSV
 
 5. **Exit**
 - Save and exit the application
 
-Use arrow keys to navigate the menu and Enter to select an option. Follow the on-screen prompts to perform various operations.
 
