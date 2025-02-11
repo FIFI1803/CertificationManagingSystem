@@ -1,8 +1,8 @@
-# Student Certification Management System
+# Student Certification Management System 📝
 
 A command-line application for managing student certifications, module data, and assessment results. This system provides an intuitive interface for educational institutions to track student progress, manage certification modules, and generate comprehensive reports.
 
-## Features
+## Features 🛠️
 
 - Student Management
 - Add, view, edit, and delete student records
@@ -29,7 +29,7 @@ A command-line application for managing student certifications, module data, and
 - Rich text formatting for better readability
 - Intuitive navigation
 
-## Requirements
+## Requirements ‼️
 
 - Python 3.7 or higher
 - SQLite3
@@ -37,7 +37,7 @@ A command-line application for managing student certifications, module data, and
 - rich
 - sqlite3
 
-## Installation
+## Installation 💻
 
 1. Clone the repository:
 ```bash
